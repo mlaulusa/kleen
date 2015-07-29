@@ -1,0 +1,19 @@
+{
+  "name": "kleen",
+  "version": "0.0.1",
+  "authors": "",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.3.12",
+    "angular-ui-router": "^0.2.11",
+    "angular-animate": "^1.3.0",
+    "fastclick": "~1.0.6",
+    "modernizr": "~2.8.3",
+    "js-cookie": "~2.0.3",
+    "material-design-lite": "~1.0.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.2.23"
+  },
+  "overrides": {}
+}
