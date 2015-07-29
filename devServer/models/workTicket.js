@@ -34,6 +34,7 @@ module.exports = function(app, mongoose) {
     }]
   });
 
+  // creates the api routes for me [GET, POST, PUT, DELETE]
   app.apiFactory(app, '/api', 'workTicket', mongoose.model('workTicket', workTicketSchema)).rest();
 
 };

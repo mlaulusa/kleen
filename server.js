@@ -19,9 +19,6 @@ app.use(bodyParser.urlencoded({ extended: true })); // parse application/x-www-f
 app.use(methodOverride('X-HTTP-Method-Override')); // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
 app.use(express.static(__dirname + '/' + staticdir)); // set the static files location /public/img will be /img for users
 
-// CORS support
-
-
 // routes ==================================================
 require('./devServer/routes/index')(app);
 
